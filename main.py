@@ -55,7 +55,7 @@ def unknown_words():
     words_list.remove(selection)
 
     df = pandas.DataFrame(words_list)
-    df.to_csv("words_to_learn.csv", index=False)
+    df.to_csv("data/words_to_learn.csv", index=False)
 
     new_word()
 
